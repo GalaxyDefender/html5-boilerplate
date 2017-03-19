@@ -1,42 +1,150 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+    <!-- Add your site or application content here -->
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Hipstrify.io</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Our Team</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="cover">
+        <div class="cover-text">
+            <h1>You probably haven&rsquo;t heard of us.</h1>
+            <p class="lead">Possumus lorem litteris do voluptate id cillum officia ubi enim eiusmod quo amet 
+                duis de nam e tamen malis sint. Et o imitarentur. Nam ab efflorescere do in fore 
+                aliquip, velit senserit occaecat quo laborum sed voluptate ex aliqua appellat a 
+                mentitum, arbitror ab fugiat, senserit ex enim qui incurreret sunt summis si 
+                culpa. Ex et firmissimum ne o quae occaecat. Et nescius adipisicing. Eu occaecat 
+                non cupidatat quo summis iis commodo. Sunt eu ita sint arbitror, non ita 
+                exquisitaque, laborum cohaerescant in incurreret, de ullamco graviterque, sint 
+                probant illustriora eu in iis veniam malis quem, ubi sint ubi lorem quo 
+                consequat si lorem. Multos a nostrud.</p>
+            <a href="#why-us" role="button" class="btn btn-danger btn-lg">Let&rsquo;s get started I guess</a>
+        </div>
+    </div>  
+    
+    <section class="testimonial">
+        <div class="container">
+            <blockquote>Enim do proident an quem, ab anim iudicem comprehenderit, velit mandaremus familiaritatem, ex fore veniam noster quamquam ubi duis tempor id reprehenderit, elit quibusdam instituendarum iis te enim consequat expetendis eu se mandaremus 
+                voluptatibus.
+            
+            <cite>&mdash; A Happy Client</cite>
+            </blockquote>
+        </div>
+    </section>
+    
+    <section id="why-us">
+        <h2>Why Hipstrify.io</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Artisanal</h3>
+                    <p>A quem laboris adipisicing an deserunt multos a ullamco exquisitaque. Quae commodo sempiternum e et summis efflorescere, quis quamquam quo coniunctione, 
+                        iis quorum te anim.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Readymade</h3>
+                    <p>A quem laboris adipisicing an deserunt multos a ullamco exquisitaque. Quae commodo sempiternum e et summis efflorescere, quis quamquam quo coniunctione, 
+                        iis quorum te anim.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Small Batchesd</h3>
+                    <p>A quem laboris adipisicing an deserunt multos a ullamco exquisitaque. Quaemodo sempiternum e et summis efflorescere, quis quamquam quo coniunctione, 
+                        iis quorum te anim.</p>
+                </div>          
+            </div>
+        </div>
+    </section>
+    
+    <section id="team">
+        <div class="container">
+            <h2>Meet our team</h2>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="img/jane.jpg" alt="Woman's face" class="img-circle">
+                    <h4>Jane Doe</h4>
+                    <p>A quem laboris adipisicing an deserunt multos a ullamco exquisitaque.</p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/john.jpg" alt="Man's face" class="img-circle">
+                    <h4>John Doe</h4>
+                    <p>A quem laboris adipisicing an deserunt multos a ullamco exquisitaque.</p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/jenny.jpg" alt="Woman's face" class="img-circle">
+                    <h4>Jenny Doe</h4>
+                    <p>A quem laboris adipisicing an deserunt multos a ullamco exquisitaque.</p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/jim.jpg" alt="Man's face" class="img-circle">
+                    <h4>Jim Doe</h4>
+                    <p>A quem laboris adipisicing an deserunt multos a ullamco exquisitaque.</p>
+                </div>     
+            </div>
+        </div>
+    </section>
+    
+    <section id="signup">
+        <div class="container">
+            <h2>Get our handcrafted newsletter</h2>
+            <p class="lead">Quae commodo sempiternum e et summis efflorescere, quis quamquam quo coniunctione, 
+                        iis quorum te anim.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control input-lg" placeholder="Put your real address in here...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-warning btn-lg">Handcraft it</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        Quentin Gerard
+    </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+    <script src="js/vendor/jquery-2.2.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
